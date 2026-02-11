@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+integrated_env/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Firebase & Google Credentials (CRITICAL - DO NOT COMMIT)
+config/firebase_service_account.json
+config/google_credentials.json
+config/token.json
+
+# Database Files (Large binary files - use Git LFS or exclude)
+DBs/*.db
+DBs/*.faiss
+DBs/*.npy
+
+# Temporary files
+*.tmp
+*.bak
+*.swp

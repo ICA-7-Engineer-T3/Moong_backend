@@ -1,0 +1,11 @@
+analysis:
+  emotion_threshold: 0.3
+  forgetting_factor: 0.05
+  time_decay_lambda: 0.1
+api:
+  request_timeout: 10
+  youtube_quota_limit: 1000
+system:
+  debug_mode: true
+  log_level: DEBUG
+  max_retries: 2
